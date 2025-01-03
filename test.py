@@ -5,10 +5,10 @@ def test_count_vowel():
 
 @pytest.mark.parametrize("s, expected", [
     ("math", 1),
-    ("home", 2),
-    ("database", 4),
+    ("Aaaaaiiaae", 10),
+    ("qwrtP", 0),
     ("Хрен", 1),
-    ("Самолет", 3),
+    ("СамOлет", 3),
     ("Computer", 3),
     ("selenium", 4),
 ])
